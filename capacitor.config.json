@@ -1,0 +1,6 @@
+{
+  "appId": "com.neon.copadam",
+  "appName": "Neon Çöp Adam",
+  "webDir": "www",
+  "server": { "androidScheme": "https" }
+}
