@@ -1,0 +1,26 @@
+{
+  "version": "134a4421",
+  "updated": "2026-11-26T21:51:07.118Z",
+  "files": [
+    {
+      "path": "index.html",
+      "size": 534,
+      "sha256": "660fd3110d62b5c1285461da36f6eab6e31887cf457d233b4cd7a6baf5c45404"
+    },
+    {
+      "path": "game.js",
+      "size": 361743,
+      "sha256": "0cf2722cab6743b4ea38fe7e32acee44cf556ff58751f1fd4fd061c10e6c84d3"
+    },
+    {
+      "path": "assets/end_bg.png",
+      "size": 1020941,
+      "sha256": "3312a21eb6027fcc50b9a7952d9e5ad35a28f7790a762995affe6d560d30cba9"
+    },
+    {
+      "path": "assets/sprites.png",
+      "size": 1181352,
+      "sha256": "b81c94979845a1cddaca4f5ec1b875613c846b4110e239047b518fa3a08312a8"
+    }
+  ]
+}

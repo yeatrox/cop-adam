@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self'">
+<title>Neon Çöp Adam</title>
+<link rel="stylesheet" href="splash.css">
+</head>
+<body>
+<main>
+  <h1 class="logo">NEON <span>ÇÖP ADAM</span></h1>
+
+  <section id="checking" class="panel">
+    <p class="msg">Güncellemeler kontrol ediliyor<span class="dots"></span></p>
+    <div class="bar indeterminate"><i></i></div>
+  </section>
+
+  <section id="available" class="panel" hidden>
+    <p class="msg big">Güncelleme zamanı!</p>
+    <p class="sub" id="availInfo"></p>
+    <button id="btnUpdate">Güncelle</button>
+  </section>
+
+  <section id="downloading" class="panel" hidden>
+    <p class="msg">Güncelleniyor</p>
+    <div class="bar"><i id="barFill"></i></div>
+    <p class="size" id="sizeText">0 B / 0 B</p>
+  </section>
+
+  <section id="error" class="panel" hidden>
+    <p class="msg err" id="errText"></p>
+    <div class="row">
+      <button id="btnRetry">Tekrar dene</button>
+      <button id="btnQuit" class="ghost">Çık</button>
+    </div>
+  </section>
+</main>
+<script src="splash.js"></script>
+</body>
+</html>
