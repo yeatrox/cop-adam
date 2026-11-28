@@ -1,6 +1,6 @@
 {
   "appId": "com.neon.copadam",
-  "appName": "PİKSEL SAVAŞLAR",
+  "appName": "Piksel Savaşlar",
   "webDir": "www",
   "server": { "androidScheme": "https" }
 }
